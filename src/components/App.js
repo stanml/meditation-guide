@@ -1,17 +1,14 @@
+import './App.css'
 import React from 'react';
-import SignUpForm from './SignUpForm';
-import BookTitle from './BookTitle';
+import BookInfo from './BookInfo';
 import About from './About'
-import Blurb from './Blurb'
 
 class App extends React.Component {
 
   render() {
     return (
-      <div>
-        <BookTitle/>
-        <SignUpForm/>
-        <Blurb/>
+      <div className="ui container; main-body">
+        <BookInfo/>
         <About/>
       </div>
     );
