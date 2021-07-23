@@ -3,7 +3,7 @@ import React from 'react';
 
 const About = () => {
   return(
-    <div className="ui container; about-author">
+    <div className="ui justified container; about-author">
         <h3>About the Author</h3>
         <p>
           Hello, I am Elizabeth English (b.1963). I teach mindfulness and meditation at Cambridge University. I have the incredible privilege of being Cambridge University’s first Mindfulness Practitioner. My mindfulness courses were the subject of an extensive research trial that showed the significant benefit of mindfulness to students (published in The Lancet PH, December 2017).

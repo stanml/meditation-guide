@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Knewave&family=Lemon&family=Nerko+One&display=swap');
 
+@media (max-width: 1000px){
+    .book-info {
+        width: 100%;
+        height: 100%;
+    }
+}
+
 .book-info {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://source.unsplash.com/lpjb_UMOyx8/2640×3960);
     background-size: cover;
@@ -8,10 +15,6 @@
     width: 500px;
     height: 600px;
     padding: 20px 20px 20px 20px;
-}
-
-.blurb {
-    text-align: justify;
 }
 
 .subscribe-container {
