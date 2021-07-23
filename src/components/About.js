@@ -12,7 +12,7 @@ const About = () => {
           I live in Cambridge with my partner and my cocker spaniel, Cherub.
         </p>
         <div>
-          <img className="ui centered medium image" src="/assets/images/lizzy-headshot.jpg" alt=""/>
+          <img className="ui centered small image" src="/assets/images/lizzy-headshot.jpg" alt=""/>
         </div>
     </div>
   );
