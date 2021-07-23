@@ -11,8 +11,8 @@ const About = () => {
           I am a certified teacher of Mindfulness, Focusing, Somatic Experiencing and Nonviolent Communication.
           I live in Cambridge with my partner and my cocker spaniel, Cherub.
         </p>
-        <div className="ui small image; headshot">
-          <img src="/assets/images/lizzy-headshot.jpg" alt=""/>
+        <div className="ui small image">
+          <img className="headshot" src="/assets/images/lizzy-headshot.jpg" alt=""/>
         </div>
     </div>
   );
