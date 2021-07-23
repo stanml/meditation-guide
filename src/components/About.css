@@ -1,14 +1,31 @@
-@media (max-width: 1000px){
+@media screen and (max-width: 465px){
   .about-author {
     position: relative;
-    top: 600px;
+    top: 653px;
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    padding: 60px 60px 60px 60px;
   }
 }
 
-.about-author {
-  float: left;
-  width: 500px;
-  height: 600px;
-  background-color: white;
-  padding: 40px 40px 40px 40px;
+@media screen and (min-width: 465px) and (max-width: 1000px){
+  .about-author {
+    position: relative;
+    top: 600px;
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    padding: 40px 40px 40px 40px;
+  }
+}
+
+@media screen and (min-width: 1000px){
+  .about-author {
+    float: left;
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    padding: 40px 40px 40px 40px;
+  }
 }

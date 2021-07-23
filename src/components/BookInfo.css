@@ -1,16 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Knewave&family=Lemon&family=Nerko+One&display=swap');
 
-@media (max-width: 1000px){
-    .book-info {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%)
-    }
+@media screen and (max-width: 465px){
+  .book-info {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://source.unsplash.com/lpjb_UMOyx8/2640×3960);
+    background-size: cover;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 40px 40px 40px 40px;
+  }
 }
 
-.book-info {
+@media screen and (min-width: 465px) and (max-width: 1000px){
+  .book-info {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://source.unsplash.com/lpjb_UMOyx8/2640×3960);
+    background-size: cover;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    padding: 40px 40px 40px 40px;
+  }
+}
+
+@media screen and (min-width: 1000px){
+  .book-info {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://source.unsplash.com/lpjb_UMOyx8/2640×3960);
     background-size: cover;
     color: white;
@@ -18,55 +38,56 @@
     width: 500px;
     height: 600px;
     padding: 20px 20px 20px 20px;
+  }
 }
 
 .subscribe-container {
-    text-align: center;
-    padding-top: 40px;
+  text-align: center;
+  padding-top: 40px;
 }
 
 .subscribe-container__title {
-    font-family: 'Knewave', cursive;
-    font-size: 36px;
+  font-family: 'Knewave', cursive;
+  font-size: 36px;
 }
 
 .subscribe-container__subtitle {
-    padding-top: 10px;
+  padding-top: 10px;
 }
 
 .subscribe-container__email {
-    width: 70%;
-    border-radius: 4px;
-    border: none;
-    font-size: 16px;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+  width: 70%;
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .subscribe-container__email:focus {
-    background-color: #e1eef2;
+  background-color: #e1eef2;
 }
 
 .subscribe-container__submit {
-    margin-top: 10px;
-    margin-bottom: 30px;
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 4px;
-    transition-duration: 0.4s;
-    width: 70%;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+  width: 70%;
 }
 
 .subscribe-container__submit:hover {
-    background-color: white;
-    color: black;
-    cursor: pointer;
+  background-color: white;
+  color: black;
+  cursor: pointer;
 }
