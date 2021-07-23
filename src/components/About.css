@@ -1,3 +1,10 @@
+@media (max-width: 1000px){
+  .about-author {
+    position: relative;
+    top: 600px;
+  }
+}
+
 .about-author {
   float: left;
   width: 500px;
