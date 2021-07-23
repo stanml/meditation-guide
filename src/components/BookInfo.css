@@ -9,6 +9,7 @@
     top: 50%;
     left: 50%;
     margin-right: -50%;
+    margin-top: 10%;
     transform: translate(-50%, -50%);
     width: 400px;
     padding: 40px 40px 40px 40px;
@@ -24,7 +25,9 @@
     top: 50%;
     left: 50%;
     margin-right: -50%;
+    margin-top: 10%;
     transform: translate(-50%, -50%);
+    width: 500px;
     padding: 40px 40px 40px 40px;
   }
 }

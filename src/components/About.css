@@ -1,7 +1,7 @@
 @media screen and (max-width: 465px){
   .about-author {
     position: relative;
-    top: 700px;
+    top: 730px;
     width: 400px;
     height: 700px;
     background-color: white;
@@ -13,7 +13,7 @@
 @media screen and (min-width: 465px) and (max-width: 1000px){
   .about-author {
     position: relative;
-    top: 600px;
+    top: 656px;
     width: 500px;
     height: 600px;
     background-color: white;
